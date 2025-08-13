@@ -17,7 +17,7 @@ PROGRESS_FILE = "progress.json"
 LOCK = threading.Lock()
 
 # Stop after this many consecutive missing athlete IDs
-STOP_THRESHOLD = 50
+STOP_THRESHOLD = 1000
 
 # CSV column definitions - must match the order used in DictWriter
 CSV_FIELDS = [
